@@ -4,4 +4,8 @@ describe("sum()", () => {
   it("1 + 2 must be 3", () => {
     expect(sum(1, 2)).toBe(3);
   });
+
+  it("1 + 1 must be misosoup", () => {
+    expect(sum(1, 1)).toBe("miso soup");
+  });
 });
